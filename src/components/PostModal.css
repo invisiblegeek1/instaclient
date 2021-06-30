@@ -1,0 +1,57 @@
+.Post__Modal{
+    display: flex;
+    justify-content: center;
+}
+.Post__Modal__Drop__Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:300px;
+    height: 300px;
+    border: 2px solid #ededed;
+    border-radius: 10px;
+    text-align: center;
+    color: #7e7d7d;
+    margin: 20px;
+    flex-direction: column;
+}
+.Post__Modal__Drop__Choose__File{
+    display: none;
+    
+}
+.Post__Modal__Choose__Label{
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+.Post__Modal__Caption__Container{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    width: 300px;
+    border: 1.8px solid #ededed;
+    padding-left: 10px;
+    border-radius: 30px;
+    margin: 20px;
+    
+    
+}
+.Post__Modal__Caption__Input{
+    height:80%;
+    width:100%;
+    border-color: transparent;
+    border-radius: 30px;
+    outline: none;
+
+}
+.Modal__Close__Btn{
+    height: 30px;
+    width: 80px;
+    border:none;
+    color: rgb(35, 82, 211);
+    margin: 20px;
+    z-index: 1000;
+    background-color: transparent;
+    cursor: pointer;
+
+}
